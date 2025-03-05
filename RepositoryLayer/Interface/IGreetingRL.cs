@@ -1,4 +1,5 @@
 ﻿using ModelLayer.Model;
+using RepositoryLayer.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,8 @@ namespace RepositoryLayer.Interface
         public bool GreetMessage(GreetingModel greetModel);
 
         public GreetingModel GetGreetingById(int id);
+
+        public List<GreetingEntity> GetAllGreetings();
 
     }
 }
