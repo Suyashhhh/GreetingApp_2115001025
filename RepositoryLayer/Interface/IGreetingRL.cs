@@ -19,5 +19,7 @@ namespace RepositoryLayer.Interface
 
         public GreetingEntity EditGreeting(int id, GreetingModel greetingModel);
 
+        public bool DeleteGreeting(int id);
+
     }
 }

@@ -19,5 +19,7 @@ namespace BusinessLayer.Interface
         public List<GreetingModel> GetAllGreetings();
 
         public GreetingModel EditGreeting(int id, GreetingModel greetingModel);
+
+        public bool DeleteGreeting(int id);
     }
 }
