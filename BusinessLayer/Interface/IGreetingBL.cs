@@ -9,7 +9,9 @@ namespace BusinessLayer.Interface
 {
     public interface IGreetingBL
     {
-        string greeting(string name);
+        string GetGreet();
+
+        string greeting(UserModel userModel);
 
     }
 }

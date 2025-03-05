@@ -3,25 +3,28 @@ using ModelLayer.Model;
 using NLog;
 using RepositoryLayer.Interface;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net.Security;
 
 namespace BusinessLayer.Services
 {
     public class GreetingBL : IGreetingBL
     {
         private readonly IGreetingRL _greetingRL;
+        private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
+
         public GreetingBL(IGreetingRL greetingRL)
         {
             _greetingRL = greetingRL;
-
         }
-        public string greeting(string greet)
+        public string GetGreet()
         {
-            return _greetingRL.Greeting(greet);
+            return "Hello! World";
         }
 
+
+        public string greeting(UserModel userModel)
+        {
+            return _greetingRL.Greeting(userModel);
+        }
     }
 }

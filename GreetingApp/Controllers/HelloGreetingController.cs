@@ -1,7 +1,6 @@
 using System.Security.Cryptography.X509Certificates;
 using BusinessLayer.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using ModelLayer.Model;
 using NLog;
 namespace HelloGreetingApplication.Controllers
@@ -94,24 +93,33 @@ namespace HelloGreetingApplication.Controllers
             responseModel.Data = null;
             return Ok(responseModel);
         }
+        /// <summary>
+        /// To print Hello! World
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("GetGreeting")]
-        public IActionResult GetGreeting(string greet)
+        public string GetHello()
         {
-            try
-            {
-                if (string.IsNullOrEmpty(greet))
-                {
-                    return BadRequest("Input Cannot be Empty!");
-                }
+            return _greetingBL.GetGreet();
 
-                string result = _greetingBL.greeting(greet);
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Something went wrong: " + ex.Message);
-            }
         }
+        /// <summary>
+        /// Takes input from user
+        /// </summary>
+        /// <param name="userModel"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("PostGreet")]
+        public IActionResult PostGreeting(UserModel userModel)
+        {
+            var result = _greetingBL.greeting(userModel);
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            responseModel.Success = true;
+            responseModel.Message = "Greet Message With Name";
+            responseModel.Data = result;
+            return Ok(responseModel);
+        }
+
     }
 }

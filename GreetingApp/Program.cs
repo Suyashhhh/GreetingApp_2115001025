@@ -6,7 +6,6 @@ using BusinessLayer.Services;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Services;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -28,6 +27,9 @@ builder.Host.UseNLog();
 var app = builder.Build();
 
 //logger dependency injection
+
+//Add swagger to container
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
