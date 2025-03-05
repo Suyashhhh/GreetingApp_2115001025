@@ -9,3 +9,19 @@ C:\Users\Suyash Kumar\source\repos\GreetingApp\RepositoryLayer\obj\Debug\net6.0\
 C:\Users\Suyash Kumar\source\repos\GreetingApp\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 C:\Users\Suyash Kumar\source\repos\GreetingApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\Suyash Kumar\source\repos\GreetingApp\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+D:\NEW HelloApp gitrepo\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+D:\NEW HelloApp gitrepo\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\NEW HelloApp gitrepo\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\NEW HelloApp gitrepo\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\NEW HelloApp gitrepo\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.sourcelink.json
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+D:\NEW HelloApp gitrepo\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelLayer.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace RepositoryLayer.Interface
 {
     public interface IGreetingRL
     {
+        string Greeting(string greet);
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suyash Kumar\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj": {}
+    "D:\\NEW HelloApp gitrepo\\ModelLayer\\ModelLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suyash Kumar\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj": {
+    "D:\\NEW HelloApp gitrepo\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suyash Kumar\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "D:\\NEW HelloApp gitrepo\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\Suyash Kumar\\source\\repos\\GreetingApp\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "D:\\NEW HelloApp gitrepo\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\Suyash Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suyash Kumar\\source\\repos\\GreetingApp\\ModelLayer\\obj\\",
+        "outputPath": "D:\\NEW HelloApp gitrepo\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

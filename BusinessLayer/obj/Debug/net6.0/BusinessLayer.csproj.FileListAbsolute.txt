@@ -15,3 +15,21 @@ C:\Users\Suyash Kumar\source\repos\GreetingApp\BusinessLayer\obj\Debug\net6.0\Bu
 C:\Users\Suyash Kumar\source\repos\GreetingApp\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 C:\Users\Suyash Kumar\source\repos\GreetingApp\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\Suyash Kumar\source\repos\GreetingApp\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\NEW HelloApp gitrepo\BusinessLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\Business.EA331CBA.Up2Date
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+D:\NEW HelloApp gitrepo\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll

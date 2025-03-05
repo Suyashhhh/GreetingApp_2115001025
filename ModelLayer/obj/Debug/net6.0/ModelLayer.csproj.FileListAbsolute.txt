@@ -9,3 +9,16 @@ C:\Users\Suyash Kumar\source\repos\GreetingApp\ModelLayer\obj\Debug\net6.0\Model
 C:\Users\Suyash Kumar\source\repos\GreetingApp\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
 C:\Users\Suyash Kumar\source\repos\GreetingApp\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
 C:\Users\Suyash Kumar\source\repos\GreetingApp\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
+D:\NEW HelloApp gitrepo\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+D:\NEW HelloApp gitrepo\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+D:\NEW HelloApp gitrepo\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.sourcelink.json
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+D:\NEW HelloApp gitrepo\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
