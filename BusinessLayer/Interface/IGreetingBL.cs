@@ -14,5 +14,6 @@ namespace BusinessLayer.Interface
         string greeting(UserModel userModel);
         bool GreetMessage(GreetingModel greetModel);
 
+        public GreetingModel GetGreetingById(int id);
     }
 }
