@@ -12,6 +12,7 @@ namespace BusinessLayer.Interface
         string GetGreet();
 
         string greeting(UserModel userModel);
+        bool GreetMessage(GreetingModel greetModel);
 
     }
 }
