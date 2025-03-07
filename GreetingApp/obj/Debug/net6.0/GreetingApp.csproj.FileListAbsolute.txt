@@ -54,8 +54,10 @@ D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Cachin
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -81,6 +83,7 @@ D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.IdentityModel.Tokens
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -93,11 +96,14 @@ D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreap
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\BusinessLayer.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\MiddleWare.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\ModelLayer.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\RepositoryLayer.dll
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\BusinessLayer.pdb
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\MiddleWare.pdb
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\ModelLayer.pdb
 D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\RepositoryLayer.pdb
 D:\NEW HelloApp gitrepo\GreetingApp\obj\Debug\net6.0\GreetingApp.csproj.AssemblyReference.cache

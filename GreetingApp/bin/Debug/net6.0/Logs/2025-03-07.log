@@ -1,0 +1,61 @@
+2025-03-07 15:30:20.5983 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-07 15:30:20.6537 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-07 15:30:20.7145 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-07 15:30:20.7145 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-07 15:30:20.7145 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-07 15:30:21.8744 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger - - 
+2025-03-07 15:30:22.0091 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-07 15:30:22.2285 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger - - - 0 - - 356.4833ms 
+2025-03-07 15:30:22.4060 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 396.8412ms 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.css - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui-bundle.js - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-07 15:30:22.4984 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 7.5904ms 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 16.9526ms 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /index.css was not modified 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-bundle.js was not modified 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.css - - - 304 - text/css 22.8767ms 
+2025-03-07 15:30:22.5106 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 19.3985ms 
+2025-03-07 15:30:22.5255 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 14.8905ms 
+2025-03-07 15:30:22.5506 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-07 15:30:22.5506 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - - 200 154948 text/css 52.8121ms 
+2025-03-07 15:30:22.6095 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 105.9924ms 
+2025-03-07 15:30:22.6517 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/favicon-32x32.png - - 
+2025-03-07 15:30:22.6517 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 15:30:22.6517 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/favicon-32x32.png - - - 200 628 image/png 1.8357ms 
+2025-03-07 15:30:22.7018 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-07 15:30:22.7018 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.9796ms 
+2025-03-07 16:17:34.2795 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-07 16:17:34.3083 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-07 16:17:34.3480 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-07 16:17:34.3480 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-07 16:17:34.3480 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-07 16:17:40.3135 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger - - 
+2025-03-07 16:17:40.4432 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-07 16:17:40.5967 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger - - - 0 - - 286.8779ms 
+2025-03-07 16:17:40.7539 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 310.6694ms 
+2025-03-07 16:17:40.8487 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-07 16:17:40.8487 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-07 16:17:40.8487 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-07 16:17:40.8586 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 9.8806ms 
+2025-03-07 16:17:40.8586 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 12.6958ms 
+2025-03-07 16:17:40.9297 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.9716ms 
+2025-03-07 16:17:40.9650 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/favicon-32x32.png - - 
+2025-03-07 16:17:40.9650 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-07 16:17:40.9771 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/favicon-32x32.png - - - 0 628 image/png 11.9900ms 
+2025-03-07 16:17:41.0056 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-07 16:17:41.0121 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.4776ms 
+2025-03-07 16:18:06.4595 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7025/HelloGreeting/PostGreet application/json 51 
+2025-03-07 16:18:06.4658 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp)' 
+2025-03-07 16:18:06.4964 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "PostGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostGreeting(ModelLayer.Model.UserModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (GreetingApp). 
+2025-03-07 16:18:07.0396 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-07 16:18:07.0702 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello string string 
+2025-03-07 16:18:07.0766 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-07 16:18:07.0766 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp) in 582.2282ms 
+2025-03-07 16:18:07.0766 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp)' 
+2025-03-07 16:18:07.0893 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7025/HelloGreeting/PostGreet application/json 51 - 200 - application/json;+charset=utf-8 629.7654ms 

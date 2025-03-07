@@ -7,7 +7,8 @@ using RepositoryLayer.Interface;
 using RepositoryLayer.Services;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
-
+using Microsoft.AspNetCore.Http;
+using MiddleWare.GlobalExceptionHandling;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +39,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
+app.UseMiddleware<MiddleWare.GlobalExceptionHandling.GlobalExceptionHandler>();
 
 
 // Configure the HTTP request pipeline.

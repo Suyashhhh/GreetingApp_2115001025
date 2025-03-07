@@ -1,0 +1,13 @@
+D:\NEW HelloApp gitrepo\MiddleWare\bin\Debug\net6.0\MiddleWare.deps.json
+D:\NEW HelloApp gitrepo\MiddleWare\bin\Debug\net6.0\MiddleWare.dll
+D:\NEW HelloApp gitrepo\MiddleWare\bin\Debug\net6.0\MiddleWare.pdb
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.csproj.AssemblyReference.cache
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.GeneratedMSBuildEditorConfig.editorconfig
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.AssemblyInfoInputs.cache
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.AssemblyInfo.cs
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.csproj.CoreCompileInputs.cache
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.sourcelink.json
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.dll
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\refint\MiddleWare.dll
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\MiddleWare.pdb
+D:\NEW HelloApp gitrepo\MiddleWare\obj\Debug\net6.0\ref\MiddleWare.dll
