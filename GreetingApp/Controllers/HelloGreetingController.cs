@@ -110,7 +110,7 @@ namespace HelloGreetingApplication.Controllers
         /// <returns></returns>
         [HttpPost]
         [Route("PostGreet")]
-        public IActionResult PostGreeting(UserModel userModel)
+        public IActionResult PostGreeting(UserNameModel userModel)
         {
             var result = _greetingBL.greeting(userModel);
             ResponseModel<string> responseModel = new ResponseModel<string>();
@@ -240,6 +240,11 @@ namespace HelloGreetingApplication.Controllers
                 return StatusCode(500, response);
             }
         }
+        /// <summary>
+        /// API to Delete Greeting Message by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Deletion Status</returns>
         [HttpDelete("DeleteGreeting/{id}")]
         public IActionResult DeleteGreeting(int id)
         {
@@ -264,6 +269,12 @@ namespace HelloGreetingApplication.Controllers
                 return StatusCode(500, response);
             }
         }
+
+
+
+
+
+
 
     }
 }

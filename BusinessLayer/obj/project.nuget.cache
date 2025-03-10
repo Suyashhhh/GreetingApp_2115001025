@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "anevQgjjcpA=",
+  "dgSpecHash": "S4pNZbHCX3E=",
   "success": true,
   "projectFilePath": "D:\\NEW HelloApp gitrepo\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Suyash Kumar\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
@@ -42,6 +43,7 @@
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\nlog.web.aspnetcore\\5.4.0\\nlog.web.aspnetcore.5.4.0.nupkg.sha512",
+    "C:\\Users\\Suyash Kumar\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\swashbuckle.aspnetcore\\7.3.1\\swashbuckle.aspnetcore.7.3.1.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.1\\swashbuckle.aspnetcore.swagger.7.3.1.nupkg.sha512",
     "C:\\Users\\Suyash Kumar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.1\\swashbuckle.aspnetcore.swaggergen.7.3.1.nupkg.sha512",

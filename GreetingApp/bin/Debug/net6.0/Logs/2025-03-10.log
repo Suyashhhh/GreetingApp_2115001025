@@ -1,0 +1,278 @@
+2025-03-10 13:29:46.0674 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-10 13:29:46.1132 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-10 13:29:46.1769 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-10 13:29:46.1769 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-10 13:29:46.1769 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-10 13:29:47.2083 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger - - 
+2025-03-10 13:29:47.4121 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-10 13:29:47.5893 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger - - - 0 - - 383.1605ms 
+2025-03-10 13:29:47.7387 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 326.5394ms 
+2025-03-10 13:29:47.8042 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.css - - 
+2025-03-10 13:29:47.8042 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui-bundle.js - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui-standalone-preset.js - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 5.5493ms 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-standalone-preset.js was not modified 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /index.css was not modified 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui.css was not modified 
+2025-03-10 13:29:47.8068 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | The file /swagger-ui-bundle.js was not modified 
+2025-03-10 13:29:47.8218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 14.4945ms 
+2025-03-10 13:29:47.8218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.css - - - 304 - text/css 17.6116ms 
+2025-03-10 13:29:47.8218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 14.9785ms 
+2025-03-10 13:29:47.8218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - - 304 - text/css 17.4593ms 
+2025-03-10 13:29:47.8218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 15.4055ms 
+2025-03-10 13:29:47.8857 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.7351ms 
+2025-03-10 13:29:47.9561 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - 
+2025-03-10 13:29:47.9673 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2025-03-10 13:29:47.9673 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - - 200 665 image/png 11.6920ms 
+2025-03-10 13:29:48.0079 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-10 13:29:48.0212 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.2733ms 
+2025-03-10 13:30:13.4810 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7025/HelloGreeting/PostGreet application/json 49 
+2025-03-10 13:30:13.4810 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp)' 
+2025-03-10 13:30:13.5173 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "PostGreeting", controller = "HelloGreeting"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PostGreeting(ModelLayer.Model.UserModel) on controller HelloGreetingApplication.Controllers.HelloGreetingController (GreetingApp). 
+2025-03-10 13:30:14.1351 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-10 13:30:14.1759 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello ozeee kumar 
+2025-03-10 13:30:14.1811 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-10 13:30:14.1811 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp) in 665.2934ms 
+2025-03-10 13:30:14.1811 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'HelloGreetingApplication.Controllers.HelloGreetingController.PostGreeting (GreetingApp)' 
+2025-03-10 13:30:14.1811 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7025/HelloGreeting/PostGreet application/json 49 - 200 - application/json;+charset=utf-8 714.5875ms 
+2025-03-10 13:56:49.8382 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-10 13:56:49.8724 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-10 13:56:49.9248 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-10 13:56:49.9248 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-10 13:56:49.9248 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-10 13:56:51.5698 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-10 13:56:51.9208 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 355.9954ms 
+2025-03-10 13:56:51.9922 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-10 13:56:51.9922 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-10 13:56:51.9922 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-10 13:56:51.9942 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 1.9968ms 
+2025-03-10 13:56:51.9942 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 6.3150ms 
+2025-03-10 13:56:52.0795 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.4085ms 
+2025-03-10 13:56:52.1858 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-10 13:56:52.1858 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.1294ms 
+2025-03-10 14:58:29.9620 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-10 14:58:30.0071 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-10 14:58:30.0674 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-10 14:58:30.0674 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-10 14:58:30.0674 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-10 14:58:33.3401 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger - - 
+2025-03-10 14:58:33.4285 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-10 14:58:33.5271 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger - - - 0 - - 189.9824ms 
+2025-03-10 14:58:33.6462 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 217.6748ms 
+2025-03-10 14:58:33.7474 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - 
+2025-03-10 14:58:33.7474 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-10 14:58:33.7474 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-10 14:58:33.7474 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-10 14:58:33.7474 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 2.3775ms 
+2025-03-10 14:58:33.7587 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 8.8266ms 
+2025-03-10 14:58:33.7749 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-10 14:58:33.7749 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/swagger-ui.css - - - 0 154948 text/css 27.7617ms 
+2025-03-10 14:58:33.8253 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.1764ms 
+2025-03-10 14:58:33.9139 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-10 14:58:33.9213 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.3638ms 
+2025-03-10 14:58:53.8314 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7025/User/Register application/json 88 
+2025-03-10 14:58:53.8314 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 14:58:53.8683 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ModelLayer.Model.UserModel) on controller HelloGreetingApplication.Controllers.UserController (GreetingApp). 
+2025-03-10 14:58:54.0546 | Info | HelloGreetingApplication.Controllers.UserController | User Controller initialized successfully 
+2025-03-10 14:58:54.7122 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 14:58:56.0805 | Error | Microsoft.EntityFrameworkCore.Database.Command | Failed executing DbCommand (60ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-10 14:58:56.1363 | Error | Microsoft.EntityFrameworkCore.Query | An exception occurred while iterating over the results of a query for context type 'RepositoryLayer.Context.UserContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Users'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e12b4bd9-cdfd-4a3c-bf2a-ebb2eace93a1
+Error Number:208,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Users'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:e12b4bd9-cdfd-4a3c-bf2a-ebb2eace93a1
+Error Number:208,State:1,Class:16 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 16.00.1000;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 208;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-10 14:58:56.2052 | Error | HelloGreetingApplication.Controllers.UserController | Error in Register API: Invalid object name 'Users'. 
+2025-03-10 14:58:56.2052 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-10 14:58:56.2160 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action HelloGreetingApplication.Controllers.UserController.Register (GreetingApp) in 2342.7203ms 
+2025-03-10 14:58:56.2160 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 14:58:56.2272 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7025/User/Register application/json 88 - 500 - application/json;+charset=utf-8 2395.7598ms 
+2025-03-10 15:11:37.5379 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 15:12:11.0143 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'GreetingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 15:12:11.2564 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2025-03-10 15:12:11.2760 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2025-03-10 15:12:11.2760 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2025-03-10 15:12:11.2760 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2025-03-10 15:12:11.3022 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2025-03-10 15:12:11.3150 | Info | Microsoft.EntityFrameworkCore.Migrations | No migrations were applied. The database is already up to date. 
+2025-03-10 15:12:24.2453 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-10 15:12:24.2825 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-10 15:12:24.3259 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-10 15:12:24.3259 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-10 15:12:24.3259 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-10 15:12:27.2581 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-10 15:12:27.5561 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 299.5465ms 
+2025-03-10 15:12:27.5931 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-10 15:12:27.5931 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-10 15:12:27.6057 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-10 15:12:27.6057 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 17.1068ms 
+2025-03-10 15:12:27.6198 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 26.6581ms 
+2025-03-10 15:12:27.7181 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.4880ms 
+2025-03-10 15:12:27.7401 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - 
+2025-03-10 15:12:27.7565 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2025-03-10 15:12:27.7565 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - - 0 665 image/png 16.7675ms 
+2025-03-10 15:12:27.8085 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-10 15:12:27.8208 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.3577ms 
+2025-03-10 15:12:48.4218 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7025/User/Register application/json 80 
+2025-03-10 15:12:48.4218 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 15:12:48.4550 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ModelLayer.Model.UserModel) on controller HelloGreetingApplication.Controllers.UserController (GreetingApp). 
+2025-03-10 15:12:48.6832 | Info | HelloGreetingApplication.Controllers.UserController | User Controller initialized successfully 
+2025-03-10 15:12:49.2671 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 15:12:50.0798 | Error | Microsoft.EntityFrameworkCore.Database.Command | Failed executing DbCommand (57ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-10 15:12:50.1165 | Error | Microsoft.EntityFrameworkCore.Query | An exception occurred while iterating over the results of a query for context type 'RepositoryLayer.Context.UserContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Users'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:897b91ec-4e49-4059-a057-ab19f374a1c5
+Error Number:208,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Users'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:897b91ec-4e49-4059-a057-ab19f374a1c5
+Error Number:208,State:1,Class:16 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 16.00.1000;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 208;HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+2025-03-10 15:12:50.1956 | Error | HelloGreetingApplication.Controllers.UserController | Error in Register API: Invalid object name 'Users'. 
+2025-03-10 15:12:50.2008 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-10 15:12:50.2008 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action HelloGreetingApplication.Controllers.UserController.Register (GreetingApp) in 1748.0186ms 
+2025-03-10 15:12:50.2008 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 15:12:50.2177 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7025/User/Register application/json 80 - 500 - application/json;+charset=utf-8 1796.0850ms 
+2025-03-10 15:15:21.8668 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 15:15:22.1186 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2025-03-10 15:15:22.1428 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2025-03-10 15:15:22.1428 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2025-03-10 15:15:22.1428 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2025-03-10 15:15:22.1680 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2025-03-10 15:15:22.1680 | Info | Microsoft.EntityFrameworkCore.Migrations | Applying migration '20250310094137_Updatetable'. 
+2025-03-10 15:15:22.2164 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [UserId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([UserId])
+); 
+2025-03-10 15:15:22.2164 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250310094137_Updatetable', N'6.0.36'); 
+2025-03-10 15:16:03.4475 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7025 
+2025-03-10 15:16:03.4815 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5145 
+2025-03-10 15:16:03.5292 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-03-10 15:16:03.5292 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-03-10 15:16:03.5292 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\NEW HelloApp gitrepo\GreetingApp\ 
+2025-03-10 15:16:09.9275 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.html - - 
+2025-03-10 15:16:10.3350 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.html - - - 200 - text/html;charset=utf-8 410.5310ms 
+2025-03-10 15:16:10.4375 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/index.js - - 
+2025-03-10 15:16:10.4375 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_vs/browserLink - - 
+2025-03-10 15:16:10.4375 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - 
+2025-03-10 15:16:10.4459 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 8.0604ms 
+2025-03-10 15:16:10.4459 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/index.js - - - 200 - application/javascript;charset=utf-8 8.3670ms 
+2025-03-10 15:16:10.5344 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.6719ms 
+2025-03-10 15:16:10.5636 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - 
+2025-03-10 15:16:10.5971 | Info | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2025-03-10 15:16:10.5971 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/favicon-16x16.png - - - 0 665 image/png 33.8715ms 
+2025-03-10 15:16:10.6205 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - 
+2025-03-10 15:16:10.6205 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7025/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.1407ms 
+2025-03-10 15:16:31.3794 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7025/User/Register application/json 80 
+2025-03-10 15:16:31.3851 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 15:16:31.4122 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ModelLayer.Model.UserModel) on controller HelloGreetingApplication.Controllers.UserController (GreetingApp). 
+2025-03-10 15:16:31.5780 | Info | HelloGreetingApplication.Controllers.UserController | User Controller initialized successfully 
+2025-03-10 15:16:32.2383 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None 
+2025-03-10 15:16:33.0593 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (73ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__user_Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-10 15:16:33.2777 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [UserId]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [UserId] = scope_identity(); 
+2025-03-10 15:16:33.3185 | Info | HelloGreetingApplication.Controllers.UserController | User Registered: sdg 
+2025-03-10 15:16:33.3217 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'ModelLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-10 15:16:33.3217 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action HelloGreetingApplication.Controllers.UserController.Register (GreetingApp) in 1912.4455ms 
+2025-03-10 15:16:33.3217 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'HelloGreetingApplication.Controllers.UserController.Register (GreetingApp)' 
+2025-03-10 15:16:33.3426 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7025/User/Register application/json 80 - 200 - application/json;+charset=utf-8 1963.1253ms 

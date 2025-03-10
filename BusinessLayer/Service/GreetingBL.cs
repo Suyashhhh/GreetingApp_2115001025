@@ -22,7 +22,7 @@ namespace BusinessLayer.Services
         }
 
 
-        public string greeting(UserModel userModel)
+        public string greeting(UserNameModel userModel)
         {
             return _greetingRL.Greeting(userModel);
         }
@@ -65,10 +65,14 @@ namespace BusinessLayer.Services
             var result = _greetingRL.DeleteGreeting(id);
             if (result)
             {
-                return true; // Deleted
+                return true; // Successfully Deleted
             }
             return false; // Not Found
         }
+
+
+
+
 
     }
 }

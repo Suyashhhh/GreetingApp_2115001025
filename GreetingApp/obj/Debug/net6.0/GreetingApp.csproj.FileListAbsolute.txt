@@ -131,3 +131,5 @@ D:\NEW HelloApp gitrepo\GreetingApp\obj\Debug\net6.0\refint\GreetingApp.dll
 D:\NEW HelloApp gitrepo\GreetingApp\obj\Debug\net6.0\GreetingApp.pdb
 D:\NEW HelloApp gitrepo\GreetingApp\obj\Debug\net6.0\GreetingApp.genruntimeconfig.cache
 D:\NEW HelloApp gitrepo\GreetingApp\obj\Debug\net6.0\ref\GreetingApp.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\NEW HelloApp gitrepo\GreetingApp\bin\Debug\net6.0\BouncyCastle.Crypto.dll

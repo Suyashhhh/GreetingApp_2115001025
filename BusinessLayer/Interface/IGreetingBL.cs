@@ -9,17 +9,14 @@ namespace BusinessLayer.Interface
 {
     public interface IGreetingBL
     {
-        string GetGreet();
+        public string GetGreet();
 
-        string greeting(UserModel userModel);
-        bool GreetMessage(GreetingModel greetModel);
-
+        public string greeting(UserNameModel userModel);
+        public bool GreetMessage(GreetingModel greetModel);
         public GreetingModel GetGreetingById(int id);
-
         public List<GreetingModel> GetAllGreetings();
-
         public GreetingModel EditGreeting(int id, GreetingModel greetingModel);
-
         public bool DeleteGreeting(int id);
+
     }
 }

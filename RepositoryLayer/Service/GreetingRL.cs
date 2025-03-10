@@ -31,7 +31,7 @@ namespace RepositoryLayer.Services
             _context.SaveChanges();
             return true;
         }
-        public string Greeting(UserModel userModel)
+        public string Greeting(UserNameModel userModel)
         {
             string greetingMessage = string.Empty;
 
@@ -96,6 +96,9 @@ namespace RepositoryLayer.Services
             }
             return false; // Not Found
         }
+
+
+
 
     }
 }

@@ -7,6 +7,8 @@ using RepositoryLayer.Interface;
 using RepositoryLayer.Services;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
+using BusinessLayer.Service;
+using RepositoryLayer.Service;
 using Microsoft.AspNetCore.Http;
 using MiddleWare.GlobalExceptionHandling;
 
@@ -14,7 +16,8 @@ using MiddleWare.GlobalExceptionHandling;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("SqlConnection");//used for connection to database
 builder.Services.AddDbContext<GreetingContext>(options => options.UseSqlServer(connectionString));
-
+var ConnectionString = builder.Configuration.GetConnectionString("SqlConnection");//used for loggin user connection to database
+builder.Services.AddDbContext<UserContext>(options => options.UseSqlServer(ConnectionString));
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -22,6 +25,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IGreetingBL, GreetingBL>();
 builder.Services.AddScoped<IGreetingRL, GreetingRL>();
+builder.Services.AddScoped<IUserBL, UserBL>();
+builder.Services.AddScoped<IUserRL, UserRL>();
 
 //logger using NLog
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
